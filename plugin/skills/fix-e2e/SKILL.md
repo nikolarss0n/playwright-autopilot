@@ -34,6 +34,8 @@ The user will provide: $ARGUMENTS
 
 Use `e2e_get_failure_report` with the `runId`. Read the error, failing action, DOM state, network, and console carefully before proceeding.
 
+> **Shortcut:** Use `e2e_get_evidence_bundle` instead to get ALL evidence (error, timeline, network with bodies, console, DOM, screenshots) in one call. Pass `outputFile: true` to save a markdown file for Jira attachments.
+
 ## STEP 3: EXAMINE SCREENSHOTS
 
 Use `e2e_get_screenshot` to view the failure screenshot. Compare with the DOM snapshot and expected state.
@@ -168,8 +170,10 @@ If you encountered a dirty-state dialog (continue/resume), save **two** flows:
 3. Show the **minimal code diff**
 4. Confirm the fix by re-running the test
 5. Show the flow that was saved
+6. Optionally generate a report: `e2e_generate_report` with the final passing runId to share results
 
 ### For application bugs (STEP 6b):
 1. The full **🔴 APPLICATION BUG DETECTED** report (formatted as above)
 2. The Jira ticket text — ready to copy-paste
-3. Do NOT modify the test, do NOT suggest `test.skip()` or `test.fixme()`
+3. Use `e2e_get_evidence_bundle` with `outputFile: true` to save evidence markdown for Jira attachment
+4. Do NOT modify the test, do NOT suggest `test.skip()` or `test.fixme()`

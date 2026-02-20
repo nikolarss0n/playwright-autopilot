@@ -43,14 +43,17 @@ A lightweight CJS hook (`captureHook.cjs`) is injected via `NODE_OPTIONS --requi
 
 ### 2. MCP Tools
 
-The plugin exposes 18 tools via the [Model Context Protocol](https://modelcontextprotocol.io/) that Claude calls on-demand. This is token-efficient by design — instead of dumping entire traces into context, Claude pulls only what it needs:
+The plugin exposes 21 tools via the [Model Context Protocol](https://modelcontextprotocol.io/) that Claude calls on-demand. This is token-efficient by design — instead of dumping entire traces into context, Claude pulls only what it needs:
 
 | Tool | Purpose |
 |------|---------|
 | `e2e_list_projects` | List Playwright projects from config |
 | `e2e_list_tests` | Discover test files and cases |
-| `e2e_run_test` | Run tests with action capture |
+| `e2e_run_test` | Run tests with action capture, flaky detection (`retries`, `repeatEach`) |
 | `e2e_get_failure_report` | Error + DOM + network + console summary |
+| `e2e_get_evidence_bundle` | **All** failure evidence in one call — ready for Jira |
+| `e2e_generate_report` | Self-contained HTML or JSON report file |
+| `e2e_suggest_tests` | Test coverage gap analysis |
 | `e2e_get_actions` | Step-by-step action timeline |
 | `e2e_get_action_detail` | Deep dive into a single action |
 | `e2e_get_dom_snapshot` | Aria tree before/after an action |
@@ -72,7 +75,48 @@ After fixing (or verifying) a test, the plugin saves the confirmed application f
 
 Next time that test breaks, Claude already knows the intended user journey and jumps straight to identifying what changed. The agent gets faster over time.
 
-### 4. Architecture Awareness
+### 4. Flaky Detection
+
+Two complementary modes for identifying flaky tests:
+
+**`retries: N`** — Run the test N+1 times in separate Playwright processes. Each run gets its own `runId` with full action capture. Returns a verdict: `FLAKY`, `CONSISTENT PASS`, or `CONSISTENT FAIL`. Best for debugging with 2-3 retries.
+
+```
+e2e_run_test(location: "tests/checkout.spec.ts:15", retries: 2)
+```
+
+**`repeatEach: N`** — Native Playwright `--repeat-each`. All iterations in one process. Fast stress-test for confirming flakiness — use 30-100 for confidence.
+
+```
+e2e_run_test(location: "tests/checkout.spec.ts:15", repeatEach: 40)
+```
+
+### 5. Evidence Bundles
+
+`e2e_get_evidence_bundle` packages **all** failure evidence into a single response — error, steps to reproduce, action timeline, failed network requests with bodies, console errors, DOM snapshot, and screenshots. Replaces calling 6+ tools separately.
+
+Pass `outputFile: true` to write a markdown file to `test-reports/` for Jira attachments.
+
+### 6. HTML Reports
+
+Batch runs (no `location`) automatically generate a self-contained HTML report with:
+- Pass/fail summary with status badges
+- Collapsible per-test sections
+- Action timelines, failed network requests, console errors
+- DOM snapshots at failure points
+- Screenshots as inline base64 images
+
+Reports are written to `test-reports/report-<runId>.html`. You can also call `e2e_generate_report` manually for any run.
+
+### 7. Coverage Analysis
+
+`e2e_suggest_tests` scans your entire project to find coverage gaps:
+
+1. **Untested page object methods** — methods in `.page.ts` / `.service.ts` files that no spec calls
+2. **Missing flow variants** — flows with pre-conditions (e.g. "no draft exists") that lack a continuation variant
+3. **Uncovered flow steps** — actions listed in confirmed flows that no spec exercises
+
+### 8. Architecture Awareness
 
 Before writing any fix, the plugin scans your project for page objects, service layers, and test fixtures. It follows your existing patterns:
 

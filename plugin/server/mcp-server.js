@@ -33,9 +33,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 
-// ../node_modules/uri-js/dist/es5/uri.all.js
+// node_modules/uri-js/dist/es5/uri.all.js
 var require_uri_all = __commonJS({
-  "../node_modules/uri-js/dist/es5/uri.all.js"(exports, module) {
+  "node_modules/uri-js/dist/es5/uri.all.js"(exports, module) {
     (function(global, factory) {
       typeof exports === "object" && typeof module !== "undefined" ? factory(exports) : typeof define === "function" && define.amd ? define(["exports"], factory) : factory(global.URI = global.URI || {});
     })(exports, (function(exports2) {
@@ -1050,9 +1050,9 @@ var require_uri_all = __commonJS({
   }
 });
 
-// ../node_modules/fast-deep-equal/index.js
+// node_modules/fast-deep-equal/index.js
 var require_fast_deep_equal = __commonJS({
-  "../node_modules/fast-deep-equal/index.js"(exports, module) {
+  "node_modules/fast-deep-equal/index.js"(exports, module) {
     "use strict";
     module.exports = function equal(a, b) {
       if (a === b) return true;
@@ -1085,9 +1085,9 @@ var require_fast_deep_equal = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/compile/ucs2length.js
+// node_modules/ajv/lib/compile/ucs2length.js
 var require_ucs2length = __commonJS({
-  "../node_modules/ajv/lib/compile/ucs2length.js"(exports, module) {
+  "node_modules/ajv/lib/compile/ucs2length.js"(exports, module) {
     "use strict";
     module.exports = function ucs2length(str) {
       var length = 0, len = str.length, pos = 0, value;
@@ -1104,9 +1104,9 @@ var require_ucs2length = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/compile/util.js
+// node_modules/ajv/lib/compile/util.js
 var require_util = __commonJS({
-  "../node_modules/ajv/lib/compile/util.js"(exports, module) {
+  "node_modules/ajv/lib/compile/util.js"(exports, module) {
     "use strict";
     module.exports = {
       copy,
@@ -1288,9 +1288,9 @@ var require_util = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/compile/schema_obj.js
+// node_modules/ajv/lib/compile/schema_obj.js
 var require_schema_obj = __commonJS({
-  "../node_modules/ajv/lib/compile/schema_obj.js"(exports, module) {
+  "node_modules/ajv/lib/compile/schema_obj.js"(exports, module) {
     "use strict";
     var util2 = require_util();
     module.exports = SchemaObject;
@@ -1300,9 +1300,9 @@ var require_schema_obj = __commonJS({
   }
 });
 
-// ../node_modules/json-schema-traverse/index.js
+// node_modules/json-schema-traverse/index.js
 var require_json_schema_traverse = __commonJS({
-  "../node_modules/json-schema-traverse/index.js"(exports, module) {
+  "node_modules/json-schema-traverse/index.js"(exports, module) {
     "use strict";
     var traverse = module.exports = function(schema, opts, cb) {
       if (typeof opts == "function") {
@@ -1384,9 +1384,9 @@ var require_json_schema_traverse = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/compile/resolve.js
+// node_modules/ajv/lib/compile/resolve.js
 var require_resolve = __commonJS({
-  "../node_modules/ajv/lib/compile/resolve.js"(exports, module) {
+  "node_modules/ajv/lib/compile/resolve.js"(exports, module) {
     "use strict";
     var URI = require_uri_all();
     var equal = require_fast_deep_equal();
@@ -1605,9 +1605,9 @@ var require_resolve = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/compile/error_classes.js
+// node_modules/ajv/lib/compile/error_classes.js
 var require_error_classes = __commonJS({
-  "../node_modules/ajv/lib/compile/error_classes.js"(exports, module) {
+  "node_modules/ajv/lib/compile/error_classes.js"(exports, module) {
     "use strict";
     var resolve6 = require_resolve();
     module.exports = {
@@ -1635,9 +1635,9 @@ var require_error_classes = __commonJS({
   }
 });
 
-// ../node_modules/fast-json-stable-stringify/index.js
+// node_modules/fast-json-stable-stringify/index.js
 var require_fast_json_stable_stringify = __commonJS({
-  "../node_modules/fast-json-stable-stringify/index.js"(exports, module) {
+  "node_modules/fast-json-stable-stringify/index.js"(exports, module) {
     "use strict";
     module.exports = function(data, opts) {
       if (!opts) opts = {};
@@ -1691,9 +1691,9 @@ var require_fast_json_stable_stringify = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/validate.js
+// node_modules/ajv/lib/dotjs/validate.js
 var require_validate = __commonJS({
-  "../node_modules/ajv/lib/dotjs/validate.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/validate.js"(exports, module) {
     "use strict";
     module.exports = function generate_validate(it, $keyword, $ruleType) {
       var out = "";
@@ -2149,9 +2149,9 @@ var require_validate = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/compile/index.js
+// node_modules/ajv/lib/compile/index.js
 var require_compile = __commonJS({
-  "../node_modules/ajv/lib/compile/index.js"(exports, module) {
+  "node_modules/ajv/lib/compile/index.js"(exports, module) {
     "use strict";
     var resolve6 = require_resolve();
     var util2 = require_util();
@@ -2428,9 +2428,9 @@ var require_compile = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/cache.js
+// node_modules/ajv/lib/cache.js
 var require_cache = __commonJS({
-  "../node_modules/ajv/lib/cache.js"(exports, module) {
+  "node_modules/ajv/lib/cache.js"(exports, module) {
     "use strict";
     var Cache = module.exports = function Cache2() {
       this._cache = {};
@@ -2450,9 +2450,9 @@ var require_cache = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/compile/formats.js
+// node_modules/ajv/lib/compile/formats.js
 var require_formats = __commonJS({
-  "../node_modules/ajv/lib/compile/formats.js"(exports, module) {
+  "node_modules/ajv/lib/compile/formats.js"(exports, module) {
     "use strict";
     var util2 = require_util();
     var DATE = /^(\d\d\d\d)-(\d\d)-(\d\d)$/;
@@ -2562,9 +2562,9 @@ var require_formats = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/ref.js
+// node_modules/ajv/lib/dotjs/ref.js
 var require_ref = __commonJS({
-  "../node_modules/ajv/lib/dotjs/ref.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/ref.js"(exports, module) {
     "use strict";
     module.exports = function generate_ref(it, $keyword, $ruleType) {
       var out = " ";
@@ -2690,9 +2690,9 @@ var require_ref = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/allOf.js
+// node_modules/ajv/lib/dotjs/allOf.js
 var require_allOf = __commonJS({
-  "../node_modules/ajv/lib/dotjs/allOf.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/allOf.js"(exports, module) {
     "use strict";
     module.exports = function generate_allOf(it, $keyword, $ruleType) {
       var out = " ";
@@ -2736,9 +2736,9 @@ var require_allOf = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/anyOf.js
+// node_modules/ajv/lib/dotjs/anyOf.js
 var require_anyOf = __commonJS({
-  "../node_modules/ajv/lib/dotjs/anyOf.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/anyOf.js"(exports, module) {
     "use strict";
     module.exports = function generate_anyOf(it, $keyword, $ruleType) {
       var out = " ";
@@ -2813,9 +2813,9 @@ var require_anyOf = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/comment.js
+// node_modules/ajv/lib/dotjs/comment.js
 var require_comment = __commonJS({
-  "../node_modules/ajv/lib/dotjs/comment.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/comment.js"(exports, module) {
     "use strict";
     module.exports = function generate_comment(it, $keyword, $ruleType) {
       var out = " ";
@@ -2833,9 +2833,9 @@ var require_comment = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/const.js
+// node_modules/ajv/lib/dotjs/const.js
 var require_const = __commonJS({
-  "../node_modules/ajv/lib/dotjs/const.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/const.js"(exports, module) {
     "use strict";
     module.exports = function generate_const(it, $keyword, $ruleType) {
       var out = " ";
@@ -2893,9 +2893,9 @@ var require_const = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/contains.js
+// node_modules/ajv/lib/dotjs/contains.js
 var require_contains = __commonJS({
-  "../node_modules/ajv/lib/dotjs/contains.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/contains.js"(exports, module) {
     "use strict";
     module.exports = function generate_contains(it, $keyword, $ruleType) {
       var out = " ";
@@ -2975,9 +2975,9 @@ var require_contains = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/dependencies.js
+// node_modules/ajv/lib/dotjs/dependencies.js
 var require_dependencies = __commonJS({
-  "../node_modules/ajv/lib/dotjs/dependencies.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/dependencies.js"(exports, module) {
     "use strict";
     module.exports = function generate_dependencies(it, $keyword, $ruleType) {
       var out = " ";
@@ -3140,9 +3140,9 @@ var require_dependencies = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/enum.js
+// node_modules/ajv/lib/dotjs/enum.js
 var require_enum = __commonJS({
-  "../node_modules/ajv/lib/dotjs/enum.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/enum.js"(exports, module) {
     "use strict";
     module.exports = function generate_enum(it, $keyword, $ruleType) {
       var out = " ";
@@ -3209,9 +3209,9 @@ var require_enum = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/format.js
+// node_modules/ajv/lib/dotjs/format.js
 var require_format = __commonJS({
-  "../node_modules/ajv/lib/dotjs/format.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/format.js"(exports, module) {
     "use strict";
     module.exports = function generate_format(it, $keyword, $ruleType) {
       var out = " ";
@@ -3360,9 +3360,9 @@ var require_format = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/if.js
+// node_modules/ajv/lib/dotjs/if.js
 var require_if = __commonJS({
-  "../node_modules/ajv/lib/dotjs/if.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/if.js"(exports, module) {
     "use strict";
     module.exports = function generate_if(it, $keyword, $ruleType) {
       var out = " ";
@@ -3464,9 +3464,9 @@ var require_if = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/items.js
+// node_modules/ajv/lib/dotjs/items.js
 var require_items = __commonJS({
-  "../node_modules/ajv/lib/dotjs/items.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/items.js"(exports, module) {
     "use strict";
     module.exports = function generate_items(it, $keyword, $ruleType) {
       var out = " ";
@@ -3605,9 +3605,9 @@ var require_items = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/_limit.js
+// node_modules/ajv/lib/dotjs/_limit.js
 var require_limit = __commonJS({
-  "../node_modules/ajv/lib/dotjs/_limit.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/_limit.js"(exports, module) {
     "use strict";
     module.exports = function generate__limit(it, $keyword, $ruleType) {
       var out = " ";
@@ -3759,9 +3759,9 @@ var require_limit = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/_limitItems.js
+// node_modules/ajv/lib/dotjs/_limitItems.js
 var require_limitItems = __commonJS({
-  "../node_modules/ajv/lib/dotjs/_limitItems.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/_limitItems.js"(exports, module) {
     "use strict";
     module.exports = function generate__limitItems(it, $keyword, $ruleType) {
       var out = " ";
@@ -3843,9 +3843,9 @@ var require_limitItems = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/_limitLength.js
+// node_modules/ajv/lib/dotjs/_limitLength.js
 var require_limitLength = __commonJS({
-  "../node_modules/ajv/lib/dotjs/_limitLength.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/_limitLength.js"(exports, module) {
     "use strict";
     module.exports = function generate__limitLength(it, $keyword, $ruleType) {
       var out = " ";
@@ -3932,9 +3932,9 @@ var require_limitLength = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/_limitProperties.js
+// node_modules/ajv/lib/dotjs/_limitProperties.js
 var require_limitProperties = __commonJS({
-  "../node_modules/ajv/lib/dotjs/_limitProperties.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/_limitProperties.js"(exports, module) {
     "use strict";
     module.exports = function generate__limitProperties(it, $keyword, $ruleType) {
       var out = " ";
@@ -4016,9 +4016,9 @@ var require_limitProperties = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/multipleOf.js
+// node_modules/ajv/lib/dotjs/multipleOf.js
 var require_multipleOf = __commonJS({
-  "../node_modules/ajv/lib/dotjs/multipleOf.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/multipleOf.js"(exports, module) {
     "use strict";
     module.exports = function generate_multipleOf(it, $keyword, $ruleType) {
       var out = " ";
@@ -4100,9 +4100,9 @@ var require_multipleOf = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/not.js
+// node_modules/ajv/lib/dotjs/not.js
 var require_not = __commonJS({
-  "../node_modules/ajv/lib/dotjs/not.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/not.js"(exports, module) {
     "use strict";
     module.exports = function generate_not(it, $keyword, $ruleType) {
       var out = " ";
@@ -4189,9 +4189,9 @@ var require_not = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/oneOf.js
+// node_modules/ajv/lib/dotjs/oneOf.js
 var require_oneOf = __commonJS({
-  "../node_modules/ajv/lib/dotjs/oneOf.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/oneOf.js"(exports, module) {
     "use strict";
     module.exports = function generate_oneOf(it, $keyword, $ruleType) {
       var out = " ";
@@ -4264,9 +4264,9 @@ var require_oneOf = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/pattern.js
+// node_modules/ajv/lib/dotjs/pattern.js
 var require_pattern = __commonJS({
-  "../node_modules/ajv/lib/dotjs/pattern.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/pattern.js"(exports, module) {
     "use strict";
     module.exports = function generate_pattern(it, $keyword, $ruleType) {
       var out = " ";
@@ -4343,9 +4343,9 @@ var require_pattern = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/properties.js
+// node_modules/ajv/lib/dotjs/properties.js
 var require_properties = __commonJS({
-  "../node_modules/ajv/lib/dotjs/properties.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/properties.js"(exports, module) {
     "use strict";
     module.exports = function generate_properties(it, $keyword, $ruleType) {
       var out = " ";
@@ -4659,9 +4659,9 @@ var require_properties = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/propertyNames.js
+// node_modules/ajv/lib/dotjs/propertyNames.js
 var require_propertyNames = __commonJS({
-  "../node_modules/ajv/lib/dotjs/propertyNames.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/propertyNames.js"(exports, module) {
     "use strict";
     module.exports = function generate_propertyNames(it, $keyword, $ruleType) {
       var out = " ";
@@ -4737,9 +4737,9 @@ var require_propertyNames = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/required.js
+// node_modules/ajv/lib/dotjs/required.js
 var require_required = __commonJS({
-  "../node_modules/ajv/lib/dotjs/required.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/required.js"(exports, module) {
     "use strict";
     module.exports = function generate_required(it, $keyword, $ruleType) {
       var out = " ";
@@ -4997,9 +4997,9 @@ var require_required = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/uniqueItems.js
+// node_modules/ajv/lib/dotjs/uniqueItems.js
 var require_uniqueItems = __commonJS({
-  "../node_modules/ajv/lib/dotjs/uniqueItems.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/uniqueItems.js"(exports, module) {
     "use strict";
     module.exports = function generate_uniqueItems(it, $keyword, $ruleType) {
       var out = " ";
@@ -5086,9 +5086,9 @@ var require_uniqueItems = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/index.js
+// node_modules/ajv/lib/dotjs/index.js
 var require_dotjs = __commonJS({
-  "../node_modules/ajv/lib/dotjs/index.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/index.js"(exports, module) {
     "use strict";
     module.exports = {
       "$ref": require_ref(),
@@ -5123,9 +5123,9 @@ var require_dotjs = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/compile/rules.js
+// node_modules/ajv/lib/compile/rules.js
 var require_rules = __commonJS({
-  "../node_modules/ajv/lib/compile/rules.js"(exports, module) {
+  "node_modules/ajv/lib/compile/rules.js"(exports, module) {
     "use strict";
     var ruleModules = require_dotjs();
     var toHash = require_util().toHash;
@@ -5217,9 +5217,9 @@ var require_rules = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/data.js
+// node_modules/ajv/lib/data.js
 var require_data = __commonJS({
-  "../node_modules/ajv/lib/data.js"(exports, module) {
+  "node_modules/ajv/lib/data.js"(exports, module) {
     "use strict";
     var KEYWORDS = [
       "multipleOf",
@@ -5268,9 +5268,9 @@ var require_data = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/compile/async.js
+// node_modules/ajv/lib/compile/async.js
 var require_async = __commonJS({
-  "../node_modules/ajv/lib/compile/async.js"(exports, module) {
+  "node_modules/ajv/lib/compile/async.js"(exports, module) {
     "use strict";
     var MissingRefError = require_error_classes().MissingRef;
     module.exports = compileAsync;
@@ -5335,9 +5335,9 @@ var require_async = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/dotjs/custom.js
+// node_modules/ajv/lib/dotjs/custom.js
 var require_custom = __commonJS({
-  "../node_modules/ajv/lib/dotjs/custom.js"(exports, module) {
+  "node_modules/ajv/lib/dotjs/custom.js"(exports, module) {
     "use strict";
     module.exports = function generate_custom(it, $keyword, $ruleType) {
       var out = " ";
@@ -5559,9 +5559,9 @@ var require_custom = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/refs/json-schema-draft-07.json
+// node_modules/ajv/lib/refs/json-schema-draft-07.json
 var require_json_schema_draft_07 = __commonJS({
-  "../node_modules/ajv/lib/refs/json-schema-draft-07.json"(exports, module) {
+  "node_modules/ajv/lib/refs/json-schema-draft-07.json"(exports, module) {
     module.exports = {
       $schema: "http://json-schema.org/draft-07/schema#",
       $id: "http://json-schema.org/draft-07/schema#",
@@ -5733,9 +5733,9 @@ var require_json_schema_draft_07 = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/definition_schema.js
+// node_modules/ajv/lib/definition_schema.js
 var require_definition_schema = __commonJS({
-  "../node_modules/ajv/lib/definition_schema.js"(exports, module) {
+  "node_modules/ajv/lib/definition_schema.js"(exports, module) {
     "use strict";
     var metaSchema = require_json_schema_draft_07();
     module.exports = {
@@ -5774,9 +5774,9 @@ var require_definition_schema = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/keyword.js
+// node_modules/ajv/lib/keyword.js
 var require_keyword = __commonJS({
-  "../node_modules/ajv/lib/keyword.js"(exports, module) {
+  "node_modules/ajv/lib/keyword.js"(exports, module) {
     "use strict";
     var IDENTIFIER = /^[a-z_$][a-z0-9_$-]*$/i;
     var customRuleCode = require_custom();
@@ -5874,9 +5874,9 @@ var require_keyword = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/refs/data.json
+// node_modules/ajv/lib/refs/data.json
 var require_data2 = __commonJS({
-  "../node_modules/ajv/lib/refs/data.json"(exports, module) {
+  "node_modules/ajv/lib/refs/data.json"(exports, module) {
     module.exports = {
       $schema: "http://json-schema.org/draft-07/schema#",
       $id: "https://raw.githubusercontent.com/ajv-validator/ajv/master/lib/refs/data.json#",
@@ -5897,9 +5897,9 @@ var require_data2 = __commonJS({
   }
 });
 
-// ../node_modules/ajv/lib/ajv.js
+// node_modules/ajv/lib/ajv.js
 var require_ajv = __commonJS({
-  "../node_modules/ajv/lib/ajv.js"(exports, module) {
+  "node_modules/ajv/lib/ajv.js"(exports, module) {
     "use strict";
     var compileSchema = require_compile();
     var resolve6 = require_resolve();
@@ -6249,9 +6249,9 @@ var require_ajv = __commonJS({
   }
 });
 
-// ../node_modules/balanced-match/index.js
+// node_modules/balanced-match/index.js
 var require_balanced_match = __commonJS({
-  "../node_modules/balanced-match/index.js"(exports, module) {
+  "node_modules/balanced-match/index.js"(exports, module) {
     "use strict";
     module.exports = balanced;
     function balanced(a, b, str) {
@@ -6307,9 +6307,9 @@ var require_balanced_match = __commonJS({
   }
 });
 
-// ../packages/pw-test-writer/node_modules/brace-expansion/index.js
+// packages/pw-test-writer/node_modules/brace-expansion/index.js
 var require_brace_expansion = __commonJS({
-  "../packages/pw-test-writer/node_modules/brace-expansion/index.js"(exports, module) {
+  "packages/pw-test-writer/node_modules/brace-expansion/index.js"(exports, module) {
     var balanced = require_balanced_match();
     module.exports = expandTop;
     var escSlash = "\0SLASH" + Math.random() + "\0";
@@ -6457,10 +6457,10 @@ var require_brace_expansion = __commonJS({
   }
 });
 
-// ../packages/pw-test-writer/node_modules/minimatch/dist/esm/assert-valid-pattern.js
+// packages/pw-test-writer/node_modules/minimatch/dist/esm/assert-valid-pattern.js
 var MAX_PATTERN_LENGTH, assertValidPattern;
 var init_assert_valid_pattern = __esm({
-  "../packages/pw-test-writer/node_modules/minimatch/dist/esm/assert-valid-pattern.js"() {
+  "packages/pw-test-writer/node_modules/minimatch/dist/esm/assert-valid-pattern.js"() {
     MAX_PATTERN_LENGTH = 1024 * 64;
     assertValidPattern = (pattern) => {
       if (typeof pattern !== "string") {
@@ -6473,10 +6473,10 @@ var init_assert_valid_pattern = __esm({
   }
 });
 
-// ../packages/pw-test-writer/node_modules/minimatch/dist/esm/brace-expressions.js
+// packages/pw-test-writer/node_modules/minimatch/dist/esm/brace-expressions.js
 var posixClasses, braceEscape, regexpEscape, rangesToString, parseClass;
 var init_brace_expressions = __esm({
-  "../packages/pw-test-writer/node_modules/minimatch/dist/esm/brace-expressions.js"() {
+  "packages/pw-test-writer/node_modules/minimatch/dist/esm/brace-expressions.js"() {
     posixClasses = {
       "[:alnum:]": ["\\p{L}\\p{Nl}\\p{Nd}", true],
       "[:alpha:]": ["\\p{L}\\p{Nl}", true],
@@ -6587,20 +6587,20 @@ var init_brace_expressions = __esm({
   }
 });
 
-// ../packages/pw-test-writer/node_modules/minimatch/dist/esm/unescape.js
+// packages/pw-test-writer/node_modules/minimatch/dist/esm/unescape.js
 var unescape;
 var init_unescape = __esm({
-  "../packages/pw-test-writer/node_modules/minimatch/dist/esm/unescape.js"() {
+  "packages/pw-test-writer/node_modules/minimatch/dist/esm/unescape.js"() {
     unescape = (s, { windowsPathsNoEscape = false } = {}) => {
       return windowsPathsNoEscape ? s.replace(/\[([^\/\\])\]/g, "$1") : s.replace(/((?!\\).|^)\[([^\/\\])\]/g, "$1$2").replace(/\\([^\/])/g, "$1");
     };
   }
 });
 
-// ../packages/pw-test-writer/node_modules/minimatch/dist/esm/ast.js
+// packages/pw-test-writer/node_modules/minimatch/dist/esm/ast.js
 var types, isExtglobType, startNoTraversal, startNoDot, addPatternStart, justDots, reSpecials, regExpEscape, qmark, star, starNoEmpty, AST;
 var init_ast = __esm({
-  "../packages/pw-test-writer/node_modules/minimatch/dist/esm/ast.js"() {
+  "packages/pw-test-writer/node_modules/minimatch/dist/esm/ast.js"() {
     init_brace_expressions();
     init_unescape();
     types = /* @__PURE__ */ new Set(["!", "?", "+", "*", "@"]);
@@ -7083,20 +7083,20 @@ var init_ast = __esm({
   }
 });
 
-// ../packages/pw-test-writer/node_modules/minimatch/dist/esm/escape.js
+// packages/pw-test-writer/node_modules/minimatch/dist/esm/escape.js
 var escape;
 var init_escape = __esm({
-  "../packages/pw-test-writer/node_modules/minimatch/dist/esm/escape.js"() {
+  "packages/pw-test-writer/node_modules/minimatch/dist/esm/escape.js"() {
     escape = (s, { windowsPathsNoEscape = false } = {}) => {
       return windowsPathsNoEscape ? s.replace(/[?*()[\]]/g, "[$&]") : s.replace(/[?*()[\]\\]/g, "\\$&");
     };
   }
 });
 
-// ../packages/pw-test-writer/node_modules/minimatch/dist/esm/index.js
+// packages/pw-test-writer/node_modules/minimatch/dist/esm/index.js
 var import_brace_expansion, minimatch, starDotExtRE, starDotExtTest, starDotExtTestDot, starDotExtTestNocase, starDotExtTestNocaseDot, starDotStarRE, starDotStarTest, starDotStarTestDot, dotStarRE, dotStarTest, starRE, starTest, starTestDot, qmarksRE, qmarksTestNocase, qmarksTestNocaseDot, qmarksTestDot, qmarksTest, qmarksTestNoExt, qmarksTestNoExtDot, defaultPlatform, path, sep, GLOBSTAR, qmark2, star2, twoStarDot, twoStarNoDot, filter, ext, defaults, braceExpand, makeRe, match, globMagic, regExpEscape2, Minimatch;
 var init_esm = __esm({
-  "../packages/pw-test-writer/node_modules/minimatch/dist/esm/index.js"() {
+  "packages/pw-test-writer/node_modules/minimatch/dist/esm/index.js"() {
     import_brace_expansion = __toESM(require_brace_expansion(), 1);
     init_assert_valid_pattern();
     init_ast();
@@ -7824,10 +7824,10 @@ var init_esm = __esm({
   }
 });
 
-// ../node_modules/path-scurry/node_modules/lru-cache/dist/esm/index.js
+// node_modules/path-scurry/node_modules/lru-cache/dist/esm/index.js
 var perf, warned, PROCESS, emitWarning, AC, AS, shouldWarn, TYPE, isPosInt, getUintArray, ZeroArray, Stack, LRUCache;
 var init_esm2 = __esm({
-  "../node_modules/path-scurry/node_modules/lru-cache/dist/esm/index.js"() {
+  "node_modules/path-scurry/node_modules/lru-cache/dist/esm/index.js"() {
     perf = typeof performance === "object" && performance && typeof performance.now === "function" ? performance : Date;
     warned = /* @__PURE__ */ new Set();
     PROCESS = typeof process === "object" && !!process ? process : {};
@@ -9198,13 +9198,13 @@ var init_esm2 = __esm({
   }
 });
 
-// ../node_modules/minipass/dist/esm/index.js
+// node_modules/minipass/dist/esm/index.js
 import { EventEmitter } from "node:events";
 import Stream from "node:stream";
 import { StringDecoder } from "node:string_decoder";
 var proc, isStream, isReadable, isWritable, EOF, MAYBE_EMIT_END, EMITTED_END, EMITTING_END, EMITTED_ERROR, CLOSED, READ, FLUSH, FLUSHCHUNK, ENCODING, DECODER, FLOWING, PAUSED, RESUME, BUFFER, PIPES, BUFFERLENGTH, BUFFERPUSH, BUFFERSHIFT, OBJECTMODE, DESTROYED, ERROR, EMITDATA, EMITEND, EMITEND2, ASYNC, ABORT, ABORTED, SIGNAL, DATALISTENERS, DISCARDED, defer, nodefer, isEndish, isArrayBufferLike, isArrayBufferView, Pipe, PipeProxyErrors, isObjectModeOptions, isEncodingOptions, Minipass;
 var init_esm3 = __esm({
-  "../node_modules/minipass/dist/esm/index.js"() {
+  "node_modules/minipass/dist/esm/index.js"() {
     proc = typeof process === "object" && process ? process : {
       stdout: null,
       stderr: null
@@ -10081,7 +10081,7 @@ var init_esm3 = __esm({
   }
 });
 
-// ../node_modules/path-scurry/dist/esm/index.js
+// node_modules/path-scurry/dist/esm/index.js
 import { posix, win32 } from "node:path";
 import { fileURLToPath } from "node:url";
 import { lstatSync, readdir as readdirCB, readdirSync, readlinkSync, realpathSync as rps } from "fs";
@@ -10089,7 +10089,7 @@ import * as actualFS from "node:fs";
 import { lstat, readdir, readlink, realpath } from "node:fs/promises";
 var realpathSync, defaultFS, fsFromOption, uncDriveRegexp, uncToDrive, eitherSep, UNKNOWN, IFIFO, IFCHR, IFDIR, IFBLK, IFREG, IFLNK, IFSOCK, IFMT, IFMT_UNKNOWN, READDIR_CALLED, LSTAT_CALLED, ENOTDIR, ENOENT, ENOREADLINK, ENOREALPATH, ENOCHILD, TYPEMASK, entToType, normalizeCache, normalize, normalizeNocaseCache, normalizeNocase, ResolveCache, ChildrenCache, setAsCwd, PathBase, PathWin32, PathPosix, PathScurryBase, PathScurryWin32, PathScurryPosix, PathScurryDarwin, Path, PathScurry;
 var init_esm4 = __esm({
-  "../node_modules/path-scurry/dist/esm/index.js"() {
+  "node_modules/path-scurry/dist/esm/index.js"() {
     init_esm2();
     init_esm3();
     realpathSync = rps.native;
@@ -11817,10 +11817,10 @@ var init_esm4 = __esm({
   }
 });
 
-// ../packages/pw-test-writer/node_modules/glob/dist/esm/pattern.js
+// packages/pw-test-writer/node_modules/glob/dist/esm/pattern.js
 var isPatternList, isGlobList, Pattern;
 var init_pattern = __esm({
-  "../packages/pw-test-writer/node_modules/glob/dist/esm/pattern.js"() {
+  "packages/pw-test-writer/node_modules/glob/dist/esm/pattern.js"() {
     init_esm();
     isPatternList = (pl) => pl.length >= 1;
     isGlobList = (gl) => gl.length >= 1;
@@ -11988,10 +11988,10 @@ var init_pattern = __esm({
   }
 });
 
-// ../packages/pw-test-writer/node_modules/glob/dist/esm/ignore.js
+// packages/pw-test-writer/node_modules/glob/dist/esm/ignore.js
 var defaultPlatform2, Ignore;
 var init_ignore = __esm({
-  "../packages/pw-test-writer/node_modules/glob/dist/esm/ignore.js"() {
+  "packages/pw-test-writer/node_modules/glob/dist/esm/ignore.js"() {
     init_esm();
     init_pattern();
     defaultPlatform2 = typeof process === "object" && process && typeof process.platform === "string" ? process.platform : "linux";
@@ -12082,10 +12082,10 @@ var init_ignore = __esm({
   }
 });
 
-// ../packages/pw-test-writer/node_modules/glob/dist/esm/processor.js
+// packages/pw-test-writer/node_modules/glob/dist/esm/processor.js
 var HasWalkedCache, MatchRecord, SubWalks, Processor;
 var init_processor = __esm({
-  "../packages/pw-test-writer/node_modules/glob/dist/esm/processor.js"() {
+  "packages/pw-test-writer/node_modules/glob/dist/esm/processor.js"() {
     init_esm();
     HasWalkedCache = class _HasWalkedCache {
       store;
@@ -12309,10 +12309,10 @@ var init_processor = __esm({
   }
 });
 
-// ../packages/pw-test-writer/node_modules/glob/dist/esm/walker.js
+// packages/pw-test-writer/node_modules/glob/dist/esm/walker.js
 var makeIgnore, GlobUtil, GlobWalker, GlobStream;
 var init_walker = __esm({
-  "../packages/pw-test-writer/node_modules/glob/dist/esm/walker.js"() {
+  "packages/pw-test-writer/node_modules/glob/dist/esm/walker.js"() {
     init_esm3();
     init_ignore();
     init_processor();
@@ -12644,11 +12644,11 @@ var init_walker = __esm({
   }
 });
 
-// ../packages/pw-test-writer/node_modules/glob/dist/esm/glob.js
+// packages/pw-test-writer/node_modules/glob/dist/esm/glob.js
 import { fileURLToPath as fileURLToPath2 } from "node:url";
 var defaultPlatform3, Glob;
 var init_glob = __esm({
-  "../packages/pw-test-writer/node_modules/glob/dist/esm/glob.js"() {
+  "packages/pw-test-writer/node_modules/glob/dist/esm/glob.js"() {
     init_esm();
     init_esm4();
     init_pattern();
@@ -12854,10 +12854,10 @@ var init_glob = __esm({
   }
 });
 
-// ../packages/pw-test-writer/node_modules/glob/dist/esm/has-magic.js
+// packages/pw-test-writer/node_modules/glob/dist/esm/has-magic.js
 var hasMagic;
 var init_has_magic = __esm({
-  "../packages/pw-test-writer/node_modules/glob/dist/esm/has-magic.js"() {
+  "packages/pw-test-writer/node_modules/glob/dist/esm/has-magic.js"() {
     init_esm();
     hasMagic = (pattern, options = {}) => {
       if (!Array.isArray(pattern)) {
@@ -12872,7 +12872,7 @@ var init_has_magic = __esm({
   }
 });
 
-// ../packages/pw-test-writer/node_modules/glob/dist/esm/index.js
+// packages/pw-test-writer/node_modules/glob/dist/esm/index.js
 var esm_exports = {};
 __export(esm_exports, {
   Glob: () => Glob,
@@ -12912,7 +12912,7 @@ function globIterate(pattern, options = {}) {
 }
 var streamSync, stream, iterateSync, iterate, sync, glob;
 var init_esm5 = __esm({
-  "../packages/pw-test-writer/node_modules/glob/dist/esm/index.js"() {
+  "packages/pw-test-writer/node_modules/glob/dist/esm/index.js"() {
     init_esm();
     init_glob();
     init_has_magic();
@@ -12951,10 +12951,10 @@ var init_esm5 = __esm({
   }
 });
 
-// ../node_modules/@modelcontextprotocol/sdk/dist/esm/server/stdio.js
+// node_modules/@modelcontextprotocol/sdk/dist/esm/server/stdio.js
 import process2 from "node:process";
 
-// ../node_modules/zod/v3/external.js
+// node_modules/zod/v3/external.js
 var external_exports = {};
 __export(external_exports, {
   BRAND: () => BRAND,
@@ -13066,7 +13066,7 @@ __export(external_exports, {
   void: () => voidType
 });
 
-// ../node_modules/zod/v3/helpers/util.js
+// node_modules/zod/v3/helpers/util.js
 var util;
 (function(util2) {
   util2.assertEqual = (_) => {
@@ -13200,7 +13200,7 @@ var getParsedType = (data) => {
   }
 };
 
-// ../node_modules/zod/v3/ZodError.js
+// node_modules/zod/v3/ZodError.js
 var ZodIssueCode = util.arrayToEnum([
   "invalid_type",
   "invalid_literal",
@@ -13318,7 +13318,7 @@ ZodError.create = (issues) => {
   return error2;
 };
 
-// ../node_modules/zod/v3/locales/en.js
+// node_modules/zod/v3/locales/en.js
 var errorMap = (issue, _ctx) => {
   let message;
   switch (issue.code) {
@@ -13421,7 +13421,7 @@ var errorMap = (issue, _ctx) => {
 };
 var en_default = errorMap;
 
-// ../node_modules/zod/v3/errors.js
+// node_modules/zod/v3/errors.js
 var overrideErrorMap = en_default;
 function setErrorMap(map) {
   overrideErrorMap = map;
@@ -13430,7 +13430,7 @@ function getErrorMap() {
   return overrideErrorMap;
 }
 
-// ../node_modules/zod/v3/helpers/parseUtil.js
+// node_modules/zod/v3/helpers/parseUtil.js
 var makeIssue = (params) => {
   const { data, path: path7, errorMaps, issueData } = params;
   const fullPath = [...path7, ...issueData.path || []];
@@ -13540,14 +13540,14 @@ var isDirty = (x) => x.status === "dirty";
 var isValid = (x) => x.status === "valid";
 var isAsync = (x) => typeof Promise !== "undefined" && x instanceof Promise;
 
-// ../node_modules/zod/v3/helpers/errorUtil.js
+// node_modules/zod/v3/helpers/errorUtil.js
 var errorUtil;
 (function(errorUtil2) {
   errorUtil2.errToObj = (message) => typeof message === "string" ? { message } : message || {};
   errorUtil2.toString = (message) => typeof message === "string" ? message : message?.message;
 })(errorUtil || (errorUtil = {}));
 
-// ../node_modules/zod/v3/types.js
+// node_modules/zod/v3/types.js
 var ParseInputLazyPath = class {
   constructor(parent, value, path7, key) {
     this._cachedPath = [];
@@ -16995,7 +16995,7 @@ var coerce = {
 };
 var NEVER = INVALID;
 
-// ../node_modules/@modelcontextprotocol/sdk/dist/esm/types.js
+// node_modules/@modelcontextprotocol/sdk/dist/esm/types.js
 var LATEST_PROTOCOL_VERSION = "2025-06-18";
 var SUPPORTED_PROTOCOL_VERSIONS = [
   LATEST_PROTOCOL_VERSION,
@@ -17945,7 +17945,7 @@ var McpError = class extends Error {
   }
 };
 
-// ../node_modules/@modelcontextprotocol/sdk/dist/esm/shared/stdio.js
+// node_modules/@modelcontextprotocol/sdk/dist/esm/shared/stdio.js
 var ReadBuffer = class {
   append(chunk) {
     this._buffer = this._buffer ? Buffer.concat([this._buffer, chunk]) : chunk;
@@ -17973,7 +17973,7 @@ function serializeMessage(message) {
   return JSON.stringify(message) + "\n";
 }
 
-// ../node_modules/@modelcontextprotocol/sdk/dist/esm/server/stdio.js
+// node_modules/@modelcontextprotocol/sdk/dist/esm/server/stdio.js
 var StdioServerTransport = class {
   constructor(_stdin = process2.stdin, _stdout = process2.stdout) {
     this._stdin = _stdin;
@@ -18037,7 +18037,7 @@ var StdioServerTransport = class {
   }
 };
 
-// ../node_modules/@modelcontextprotocol/sdk/dist/esm/shared/protocol.js
+// node_modules/@modelcontextprotocol/sdk/dist/esm/shared/protocol.js
 var DEFAULT_REQUEST_TIMEOUT_MSEC = 6e4;
 var Protocol = class {
   constructor(_options) {
@@ -18415,7 +18415,7 @@ function mergeCapabilities(base, additional) {
   }, { ...base });
 }
 
-// ../node_modules/@modelcontextprotocol/sdk/dist/esm/server/index.js
+// node_modules/@modelcontextprotocol/sdk/dist/esm/server/index.js
 var import_ajv = __toESM(require_ajv(), 1);
 var Server = class extends Protocol {
   /**
@@ -18637,11 +18637,11 @@ var Server = class extends Protocol {
   }
 };
 
-// ../packages/pw-test-writer/dist/mcp/tools.js
+// packages/pw-test-writer/dist/mcp/tools.js
 import * as fs3 from "fs";
 import * as path4 from "path";
 
-// ../packages/pw-test-writer/dist/mcp/pageObjects.js
+// packages/pw-test-writer/dist/mcp/pageObjects.js
 init_esm5();
 import * as fs from "fs";
 import * as path2 from "path";
@@ -18750,7 +18750,7 @@ function formatPageObjectIndex(objects) {
   return lines.join("\n");
 }
 
-// ../packages/pw-test-writer/dist/mcp/flows.js
+// packages/pw-test-writer/dist/mcp/flows.js
 init_esm5();
 import * as fs2 from "fs";
 import * as path3 from "path";
@@ -18897,7 +18897,7 @@ function formatFlows(file) {
   return lines.join("\n");
 }
 
-// ../packages/pw-test-writer/dist/mcp/tools.js
+// packages/pw-test-writer/dist/mcp/tools.js
 var toolDefs = [
   {
     name: "e2e_list_tests",
@@ -18926,7 +18926,9 @@ var toolDefs = [
         location: { type: "string", description: "Test location: file path or file:line. Omit to run all tests." },
         grep: { type: "string", description: "Filter tests by title (passed as --grep to Playwright). Use with location to isolate parameterized tests that share the same line number." },
         project: { type: "string", description: 'Playwright project name to filter by (e.g. "e2e", "admin", "mobile")' },
-        timeout: { type: "number", description: "Timeout in seconds for the test run (default: 120). Increase for slow tests or multi-step flows." }
+        timeout: { type: "number", description: "Timeout in seconds for the test run (default: 120). Increase for slow tests or multi-step flows." },
+        retries: { type: "number", description: "Run the test N+1 times to detect flaky failures (default: 0). Only works with location set. Returns per-run results and a FLAKY/CONSISTENT verdict." },
+        repeatEach: { type: "number", description: "Repeat each test N times within a single Playwright run (native --repeat-each). Fast stress-test for flakiness \u2014 use 30-100 for confidence. Returns pass/fail counts." }
       }
     }
   },
@@ -19130,6 +19132,39 @@ var toolDefs = [
     }
   },
   {
+    name: "e2e_get_evidence_bundle",
+    description: "Get ALL failure evidence for a test in one call \u2014 error, steps to reproduce, action timeline, network, console, DOM snapshot, and screenshots. Replaces calling 6+ tools separately. Use for Jira attachments with outputFile: true.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        runId: { type: "string", description: "Run ID from e2e_run_test" },
+        testIndex: { type: "number", description: "Test index within the run (default: 0)" },
+        outputFile: { type: "boolean", description: "Write evidence to test-reports/evidence-<runId>.md (default: false)" }
+      },
+      required: ["runId"]
+    }
+  },
+  {
+    name: "e2e_generate_report",
+    description: "Generate a self-contained HTML or JSON report file for a test run. HTML includes inline styles, base64 screenshots, collapsible per-test sections.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        runId: { type: "string", description: "Run ID from e2e_run_test" },
+        format: { type: "string", description: '"html" or "json" (default: "html")' }
+      },
+      required: ["runId"]
+    }
+  },
+  {
+    name: "e2e_suggest_tests",
+    description: "Analyze test coverage gaps: untested page object methods, missing flow variants, and uncovered flow steps. No parameters \u2014 scans everything.",
+    inputSchema: {
+      type: "object",
+      properties: {}
+    }
+  },
+  {
     name: "e2e_get_context",
     description: "Load project context in one call: stored application flows + page object index. Call this before debugging to understand the project structure and available methods.",
     inputSchema: {
@@ -19203,6 +19238,12 @@ async function handleTool(name, args, ctx) {
       return handleFindElements(args, ctx);
     case "e2e_scan_page_objects":
       return handleScanPageObjects(ctx);
+    case "e2e_get_evidence_bundle":
+      return handleGetEvidenceBundle(args, ctx);
+    case "e2e_generate_report":
+      return handleGenerateReport(args, ctx);
+    case "e2e_suggest_tests":
+      return handleSuggestTests(ctx);
     case "e2e_get_app_flows":
       return handleGetAppFlows(ctx);
     case "e2e_save_app_flow":
@@ -19248,12 +19289,75 @@ async function handleRunTest(args, ctx) {
   const grep = args.grep ? String(args.grep) : void 0;
   const project = args.project ? String(args.project) : void 0;
   const timeoutMs = args.timeout ? Number(args.timeout) * 1e3 : void 0;
+  const retries = args.retries ? Math.max(0, Math.floor(Number(args.retries))) : 0;
+  const repeatEach = args.repeatEach ? Math.max(1, Math.floor(Number(args.repeatEach))) : void 0;
   if (!location) {
-    const result2 = await ctx.runProject(ctx.cwd, { project });
+    if (retries > 0) {
+      return text("\u26A0 `retries` is only supported when `location` is set (single-test mode). Running batch without retries.");
+    }
+    const result2 = await ctx.runProject(ctx.cwd, { project, repeatEach });
     ctx.runs.set(result2.runId, result2);
-    return text(formatBatchResults(result2, project));
+    const dir = path4.join(ctx.cwd, "test-reports");
+    fs3.mkdirSync(dir, { recursive: true });
+    ctx.sendProgress?.("Generating HTML report...");
+    const html = buildHtmlReport(result2, ctx.cwd, ctx.sendProgress);
+    const reportPath = path4.join(dir, `report-${result2.runId}.html`);
+    fs3.writeFileSync(reportPath, html, "utf-8");
+    return text(formatBatchResults(result2, project) + `
+
+\u{1F4C4} **Report:** \`${reportPath}\``);
   }
-  const result = await ctx.runTest(location, ctx.cwd, { project, grep, timeoutMs });
+  if (retries > 0) {
+    const totalRuns = retries + 1;
+    const attempts = [];
+    for (let i = 0; i < totalRuns; i++) {
+      ctx.sendProgress?.(`Retry ${i + 1}/${totalRuns} starting...`);
+      const result2 = await ctx.runTest(location, ctx.cwd, { project, grep, timeoutMs, repeatEach });
+      ctx.runs.set(result2.runId, result2);
+      const firstTest = result2.tests[0];
+      const status = firstTest?.status ?? "unknown";
+      attempts.push({
+        runId: result2.runId,
+        status,
+        duration: firstTest?.duration ?? 0,
+        error: firstTest?.error?.slice(0, 200)
+      });
+      const passed = attempts.filter((a) => a.status === "passed").length;
+      const failed = attempts.filter((a) => a.status === "failed").length;
+      ctx.sendProgress?.(`Retry ${i + 1}/${totalRuns} done: ${status === "passed" ? "\u2705" : "\u274C"} (${passed} passed, ${failed} failed so far)`);
+    }
+    const statuses = new Set(attempts.map((a) => a.status));
+    let verdict;
+    if (statuses.size === 1) {
+      verdict = statuses.has("passed") ? "\u2705 CONSISTENT PASS" : "\u274C CONSISTENT FAIL";
+    } else {
+      verdict = "\u26A0\uFE0F FLAKY";
+    }
+    const lines2 = [
+      `## Flaky Detection: ${totalRuns} runs`,
+      "",
+      `**Verdict:** ${verdict}`,
+      "",
+      "| Run | Status | Duration | Run ID |",
+      "|-----|--------|----------|--------|"
+    ];
+    for (let i = 0; i < attempts.length; i++) {
+      const a = attempts[i];
+      const icon = a.status === "passed" ? "\u2705" : "\u274C";
+      lines2.push(`| ${i + 1} | ${icon} ${a.status} | ${formatDuration(a.duration)} | \`${a.runId}\` |`);
+    }
+    lines2.push("");
+    if (verdict.includes("FLAKY")) {
+      const failedAttempt = attempts.find((a) => a.status === "failed");
+      if (failedAttempt) {
+        lines2.push(`Use \`e2e_get_failure_report\` with runId \`${failedAttempt.runId}\` to investigate the failure.`);
+      }
+    } else if (verdict.includes("CONSISTENT FAIL")) {
+      lines2.push(`Use \`e2e_get_failure_report\` with runId \`${attempts[0].runId}\` for detailed analysis.`);
+    }
+    return text(lines2.join("\n"));
+  }
+  const result = await ctx.runTest(location, ctx.cwd, { project, grep, timeoutMs, repeatEach });
   ctx.runs.set(result.runId, result);
   const lines = [`**Run ID:** \`${result.runId}\``, ""];
   for (const test of result.tests) {
@@ -19638,6 +19742,292 @@ async function handleFindElements(args, ctx) {
   ];
   return text(parts.join("\n"));
 }
+async function handleGetEvidenceBundle(args, ctx) {
+  const runId = String(args.runId || "");
+  const testIndex = Number(args.testIndex ?? 0);
+  const outputFile = Boolean(args.outputFile ?? false);
+  const test = getTest(ctx, runId, testIndex);
+  if (!test)
+    return error(`Run "${runId}" not found or test index ${testIndex} out of range.`);
+  ctx.sendProgress?.("Collecting error summary...");
+  const parts = [];
+  parts.push(`# Evidence Bundle \u2014 \`${test.file}\``);
+  parts.push("");
+  parts.push(`- **Status:** ${test.status}`);
+  parts.push(`- **Duration:** ${formatDuration(test.duration)}`);
+  parts.push(`- **Location:** \`${test.location}\``);
+  const failingAction = test.actions.find((a) => a.error);
+  if (failingAction) {
+    parts.push(`- **Page URL:** ${failingAction.pageUrl || "unknown"}`);
+  }
+  parts.push("");
+  if (test.error) {
+    parts.push("## Error");
+    parts.push(`\`\`\`
+${test.error}
+\`\`\``);
+    parts.push("");
+  }
+  if (test.actions.length > 0) {
+    parts.push("## Steps to Reproduce");
+    for (let i = 0; i < test.actions.length; i++) {
+      const a = test.actions[i];
+      const marker = a.error ? " **\u2190 FAILED HERE**" : "";
+      parts.push(`${i + 1}. \`${a.type}.${a.method}\`${a.title ? ` \u2014 ${a.title}` : ""}${marker}`);
+    }
+    parts.push("");
+  }
+  if (test.actions.length > 0) {
+    parts.push(`## Action Timeline (${test.actions.length} actions)`);
+    const padLen = String(test.actions.length - 1).length;
+    for (let i = 0; i < test.actions.length; i++) {
+      const a = test.actions[i];
+      const icon = a.error ? "\u2717" : "\u2713";
+      const net = a.network?.requests?.length || 0;
+      const netInfo = net > 0 ? ` [${net} req]` : "";
+      const marker = a.error ? "  \u2190 FAILING" : "";
+      parts.push(`${String(i).padStart(padLen)}. ${icon} ${a.type}.${a.method}${netInfo}  ${formatDuration(a.timing?.durationMs)}${marker}`);
+      if (a.error)
+        parts.push(`    ${a.error.message}`);
+    }
+    parts.push("");
+  }
+  if (failingAction) {
+    const failIdx = test.actions.indexOf(failingAction);
+    parts.push(`## Failing Action Detail (step ${failIdx})`);
+    parts.push(`- **Action:** \`${failingAction.type}.${failingAction.method}\``);
+    if (failingAction.params) {
+      const p = typeof failingAction.params === "string" ? failingAction.params : JSON.stringify(failingAction.params, null, 2);
+      parts.push(`- **Params:** \`${p}\``);
+    }
+    if (failingAction.error) {
+      parts.push(`- **Error:** ${failingAction.error.message}`);
+      if (failingAction.error.stack)
+        parts.push(`\`\`\`
+${failingAction.error.stack}
+\`\`\``);
+    }
+    parts.push("");
+  }
+  ctx.sendProgress?.("Collecting network requests...");
+  const allReqs = test.actions.flatMap((a) => a.network?.requests || []);
+  const failedReqs = allReqs.filter((r) => r.status && r.status >= 400);
+  if (failedReqs.length > 0) {
+    parts.push(`## Failed Network Requests (${failedReqs.length})`);
+    for (const r of failedReqs.slice(0, 15)) {
+      parts.push(`### \`${r.method}\` ${r.url} \u2192 **${r.status}**`);
+      parts.push(`Duration: ${formatDuration(r.durationMs)}`);
+      if (r.requestPostData) {
+        parts.push(`
+Request body:
+\`\`\`json
+${truncate(r.requestPostData, 3e3)}
+\`\`\``);
+      }
+      if (r.responseBody) {
+        const f = formatBody(r.responseBody, 5e3);
+        parts.push(`
+Response body:
+\`\`\`${f.lang}
+${f.text}
+\`\`\``);
+      }
+      parts.push("");
+    }
+  }
+  ctx.sendProgress?.("Collecting console errors...");
+  const allConsole = test.actions.flatMap((a) => a.console || []);
+  const consoleErrors = allConsole.filter((c) => c.type === "error");
+  if (consoleErrors.length > 0) {
+    parts.push(`## Console Errors (${consoleErrors.length})`);
+    for (const e of consoleErrors.slice(0, 20)) {
+      parts.push(`- ${e.text}`);
+    }
+    parts.push("");
+  }
+  ctx.sendProgress?.("Collecting DOM snapshot...");
+  if (failingAction?.snapshot?.after) {
+    parts.push("## DOM at Failure Point");
+    parts.push(`\`\`\`
+${truncate(failingAction.snapshot.after, 5e3)}
+\`\`\``);
+    parts.push("");
+  }
+  const markdown = parts.join("\n");
+  ctx.sendProgress?.("Reading screenshots...");
+  const content = [{ type: "text", text: markdown }];
+  const screenshots = test.attachments.filter((a) => a.contentType.startsWith("image/"));
+  for (const screenshot of screenshots) {
+    try {
+      const data = fs3.readFileSync(screenshot.path);
+      content.push({ type: "text", text: `
+**Screenshot:** ${screenshot.name}` }, { type: "image", data: data.toString("base64"), mimeType: screenshot.contentType });
+    } catch {
+    }
+  }
+  if (outputFile) {
+    const dir = path4.join(ctx.cwd, "test-reports");
+    fs3.mkdirSync(dir, { recursive: true });
+    const outPath = path4.join(dir, `evidence-${runId}.md`);
+    fs3.writeFileSync(outPath, markdown, "utf-8");
+    content.push({ type: "text", text: `
+_Evidence written to \`${outPath}\`_` });
+  }
+  return { content };
+}
+async function handleGenerateReport(args, ctx) {
+  const runId = String(args.runId || "");
+  const format = String(args.format || "html");
+  const run = ctx.runs.get(runId);
+  if (!run)
+    return error(`Run "${runId}" not found.`);
+  const dir = path4.join(ctx.cwd, "test-reports");
+  fs3.mkdirSync(dir, { recursive: true });
+  if (format === "json") {
+    ctx.sendProgress?.("Serializing JSON report...");
+    const data = {
+      runId: run.runId,
+      timestamp: run.timestamp,
+      tests: run.tests.map((t) => ({
+        file: t.file,
+        test: t.test,
+        location: t.location,
+        status: t.status,
+        duration: t.duration,
+        error: t.error,
+        actions: t.actions,
+        attachments: t.attachments.map((a) => ({ name: a.name, path: a.path, contentType: a.contentType }))
+      }))
+    };
+    const outPath2 = path4.join(dir, `report-${runId}.json`);
+    fs3.writeFileSync(outPath2, JSON.stringify(data, null, 2), "utf-8");
+    return text(`JSON report written to \`${outPath2}\` (${run.tests.length} tests).`);
+  }
+  ctx.sendProgress?.(`Building HTML report for ${run.tests.length} tests...`);
+  const html = buildHtmlReport(run, ctx.cwd, ctx.sendProgress);
+  const outPath = path4.join(dir, `report-${runId}.html`);
+  fs3.writeFileSync(outPath, html, "utf-8");
+  const passed = run.tests.filter((t) => t.status === "passed").length;
+  const failed = run.tests.filter((t) => t.status === "failed").length;
+  return text(`HTML report written to \`${outPath}\` (${passed} passed, ${failed} failed).`);
+}
+async function handleSuggestTests(ctx) {
+  ctx.sendProgress?.("Scanning page objects, spec files, and flows...");
+  const [objects, specs, flowsFile] = await Promise.all([
+    scanPageObjects(ctx.cwd),
+    discoverFlowsFromSpecs(ctx.cwd),
+    readFlows(ctx.cwd)
+  ]);
+  const parts = ["# Test Coverage Analysis", ""];
+  ctx.sendProgress?.("Phase 1/3: Analyzing untested page object methods...");
+  const calledMethods = /* @__PURE__ */ new Set();
+  for (const spec of specs) {
+    for (const call of spec.calls) {
+      const match2 = call.match(/\.(\w+)\(/);
+      if (match2)
+        calledMethods.add(match2[1]);
+    }
+  }
+  const untestedMethods = [];
+  for (const obj of objects) {
+    for (const m of obj.methods) {
+      if (!calledMethods.has(m.name)) {
+        untestedMethods.push({ className: obj.className, method: m.name, file: obj.relativePath });
+      }
+    }
+  }
+  parts.push(`## Phase 1: Untested Page Object Methods (${untestedMethods.length})`);
+  parts.push("");
+  if (untestedMethods.length === 0) {
+    parts.push("All page object methods appear in at least one spec.");
+  } else {
+    parts.push("These methods exist in page objects but are never called in any spec file:");
+    parts.push("");
+    const byClass = /* @__PURE__ */ new Map();
+    for (const m of untestedMethods) {
+      if (!byClass.has(m.className))
+        byClass.set(m.className, []);
+      byClass.get(m.className).push(m);
+    }
+    for (const [cls, methods] of byClass) {
+      parts.push(`**${cls}** (\`${methods[0].file}\`)`);
+      for (const m of methods)
+        parts.push(`  - ${m.method}()`);
+      parts.push("");
+    }
+  }
+  ctx.sendProgress?.("Phase 2/3: Checking missing flow variants...");
+  const flows = flowsFile.flows;
+  const flowNames = new Set(flows.map((f) => f.flowName));
+  const missingVariants = [];
+  for (const flow of flows) {
+    if (flow.pre_conditions && flow.pre_conditions.length > 0) {
+      const baseName = flow.flowName.split("--")[0];
+      const hasDraftVariant = flowNames.has(`${baseName}--continue-draft`);
+      if (!hasDraftVariant && flow.pre_conditions.some((c) => c.toLowerCase().includes("no draft") || c.toLowerCase().includes("clean"))) {
+        missingVariants.push(`\`${baseName}--continue-draft\` \u2014 flow "${flow.flowName}" has pre_condition about clean state but no continuation variant`);
+      }
+    }
+    if (flow.notes) {
+      for (const note of flow.notes) {
+        const lower = note.toLowerCase();
+        if ((lower.includes("validation") || lower.includes("error")) && !flowNames.has(`${flow.flowName.split("--")[0]}--validation`)) {
+          missingVariants.push(`\`${flow.flowName.split("--")[0]}--validation\` \u2014 note mentions "${note.slice(0, 80)}"`);
+        }
+      }
+    }
+  }
+  parts.push(`## Phase 2: Missing Flow Variants (${missingVariants.length})`);
+  parts.push("");
+  if (missingVariants.length === 0) {
+    parts.push(flows.length === 0 ? "No flows stored yet. Save flows with `e2e_save_app_flow` to enable variant analysis." : "No missing variants detected.");
+  } else {
+    parts.push("Based on pre_conditions and notes, these flow variants should exist but are missing:");
+    parts.push("");
+    for (const v of missingVariants)
+      parts.push(`- ${v}`);
+  }
+  parts.push("");
+  ctx.sendProgress?.("Phase 3/3: Cross-referencing flow steps with specs...");
+  const uncovered = [];
+  for (const flow of flows) {
+    for (const step of flow.steps) {
+      for (const action of step.required_actions) {
+        const methodMatch = action.match(/(\w+)\(/);
+        if (methodMatch && !calledMethods.has(methodMatch[1])) {
+          uncovered.push({ flowName: flow.flowName, step: step.name, action });
+        }
+      }
+    }
+  }
+  parts.push(`## Phase 3: Uncovered Flow Steps (${uncovered.length})`);
+  parts.push("");
+  if (uncovered.length === 0) {
+    parts.push(flows.length === 0 ? "No flows stored yet." : "All confirmed flow steps are exercised by at least one spec.");
+  } else {
+    parts.push("These actions are listed in confirmed flows but no spec file calls them:");
+    parts.push("");
+    const byFlow = /* @__PURE__ */ new Map();
+    for (const u of uncovered) {
+      if (!byFlow.has(u.flowName))
+        byFlow.set(u.flowName, []);
+      byFlow.get(u.flowName).push(u);
+    }
+    for (const [name, items] of byFlow) {
+      parts.push(`**${name}**`);
+      for (const i of items)
+        parts.push(`  - Step "${i.step}": \`${i.action}\``);
+      parts.push("");
+    }
+  }
+  const totalGaps = untestedMethods.length + missingVariants.length + uncovered.length;
+  parts.push("---");
+  parts.push(`**Total gaps found:** ${totalGaps}`);
+  if (totalGaps > 0) {
+    parts.push("Consider adding tests for the identified gaps to improve coverage.");
+  }
+  return text(parts.join("\n"));
+}
 async function handleScanPageObjects(ctx) {
   const objects = await scanPageObjects(ctx.cwd);
   return text(formatPageObjectIndex(objects));
@@ -19820,6 +20210,124 @@ ${f.text}
   }
   return parts.join("\n");
 }
+function buildHtmlReport(run, cwd2, sendProgress) {
+  const passed = run.tests.filter((t) => t.status === "passed");
+  const failed = run.tests.filter((t) => t.status === "failed");
+  const totalDuration = run.tests.reduce((sum, t) => sum + t.duration, 0);
+  const timestamp = new Date(run.timestamp).toLocaleString();
+  const escHtml = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  let testSections = "";
+  for (let ti = 0; ti < run.tests.length; ti++) {
+    sendProgress?.(`Processing test ${ti + 1}/${run.tests.length}...`);
+    const test = run.tests[ti];
+    const statusClass = test.status === "passed" ? "pass" : "fail";
+    const statusBadge = test.status === "passed" ? '<span class="badge pass">PASS</span>' : '<span class="badge fail">FAIL</span>';
+    let details = "";
+    if (test.error) {
+      details += `<div class="section"><h4>Error</h4><pre>${escHtml(test.error)}</pre></div>`;
+    }
+    if (test.actions.length > 0) {
+      const failingAction2 = test.actions.find((a) => a.error);
+      let rows = "";
+      for (let i = 0; i < test.actions.length; i++) {
+        const a = test.actions[i];
+        const isFailing = a === failingAction2;
+        const rowClass = isFailing ? ' class="fail-row"' : "";
+        const icon = a.error ? "&#10007;" : "&#10003;";
+        const net = a.network?.requests?.length || 0;
+        rows += `<tr${rowClass}><td>${i}</td><td>${icon}</td><td>${escHtml(a.type)}.${escHtml(a.method)}</td><td>${net}</td><td>${formatDuration(a.timing?.durationMs)}</td></tr>`;
+      }
+      details += `<div class="section"><h4>Action Timeline (${test.actions.length})</h4><table><tr><th>#</th><th></th><th>Action</th><th>Net</th><th>Duration</th></tr>${rows}</table></div>`;
+    }
+    const allReqs = test.actions.flatMap((a) => a.network?.requests || []);
+    const failedReqs = allReqs.filter((r) => r.status && r.status >= 400);
+    if (failedReqs.length > 0) {
+      let rows = "";
+      for (const r of failedReqs.slice(0, 20)) {
+        rows += `<tr class="fail-row"><td>${escHtml(r.method)}</td><td>${escHtml(r.url)}</td><td>${r.status}</td><td>${formatDuration(r.durationMs)}</td></tr>`;
+      }
+      details += `<div class="section"><h4>Failed Network Requests (${failedReqs.length})</h4><table><tr><th>Method</th><th>URL</th><th>Status</th><th>Duration</th></tr>${rows}</table></div>`;
+    }
+    const allConsole = test.actions.flatMap((a) => a.console || []);
+    const consoleErrors = allConsole.filter((c) => c.type === "error");
+    if (consoleErrors.length > 0) {
+      const items = consoleErrors.slice(0, 20).map((e) => `<li>${escHtml(e.text)}</li>`).join("");
+      details += `<div class="section"><h4>Console Errors (${consoleErrors.length})</h4><ul>${items}</ul></div>`;
+    }
+    const failingAction = test.actions.find((a) => a.error);
+    if (failingAction?.snapshot?.after) {
+      details += `<div class="section"><h4>DOM at Failure</h4><pre>${escHtml(failingAction.snapshot.after.slice(0, 5e3))}</pre></div>`;
+    }
+    const screenshots = test.attachments.filter((a) => a.contentType.startsWith("image/"));
+    if (screenshots.length > 0) {
+      sendProgress?.(`Encoding ${screenshots.length} screenshot(s) for test ${ti + 1}...`);
+      let imgs = "";
+      for (const s of screenshots) {
+        try {
+          const data = fs3.readFileSync(s.path);
+          const b64 = data.toString("base64");
+          imgs += `<div class="screenshot"><p>${escHtml(s.name)}</p><img src="data:${s.contentType};base64,${b64}" alt="${escHtml(s.name)}"/></div>`;
+        } catch {
+          imgs += `<div class="screenshot"><p>${escHtml(s.name)} (file not found)</p></div>`;
+        }
+      }
+      details += `<div class="section"><h4>Screenshots</h4>${imgs}</div>`;
+    }
+    const open = test.status === "failed" ? " open" : "";
+    testSections += `<details${open} class="test ${statusClass}"><summary>${statusBadge} <strong>${escHtml(test.test || test.file)}</strong> <span class="dur">${formatDuration(test.duration)}</span></summary>${details}</details>`;
+  }
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test Report \u2014 ${escHtml(run.runId)}</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; color: #333; padding: 20px; max-width: 1200px; margin: 0 auto; }
+  h1 { margin-bottom: 8px; }
+  .summary { background: #fff; padding: 16px 20px; border-radius: 8px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.1); display: flex; gap: 24px; flex-wrap: wrap; align-items: center; }
+  .summary .stat { text-align: center; }
+  .summary .stat .num { font-size: 28px; font-weight: 700; }
+  .summary .stat .label { font-size: 12px; color: #888; text-transform: uppercase; }
+  .pass-num { color: #22863a; }
+  .fail-num { color: #cb2431; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 700; text-transform: uppercase; }
+  .badge.pass { background: #dcffe4; color: #22863a; }
+  .badge.fail { background: #ffdce0; color: #cb2431; }
+  details.test { background: #fff; border-radius: 8px; margin-bottom: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+  details.test summary { padding: 12px 16px; cursor: pointer; list-style: none; display: flex; align-items: center; gap: 8px; }
+  details.test summary::-webkit-details-marker { display: none; }
+  details.test summary::before { content: '\u25B6'; font-size: 10px; transition: transform .2s; }
+  details.test[open] summary::before { transform: rotate(90deg); }
+  .dur { color: #888; font-size: 13px; margin-left: auto; }
+  .section { padding: 12px 16px; border-top: 1px solid #eee; }
+  .section h4 { margin-bottom: 8px; font-size: 14px; }
+  pre { background: #f6f8fa; padding: 12px; border-radius: 4px; overflow-x: auto; font-size: 12px; line-height: 1.5; white-space: pre-wrap; word-break: break-word; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 6px 10px; border-bottom: 1px solid #eee; }
+  th { font-weight: 600; background: #f9f9f9; }
+  .fail-row { background: #fff5f5; }
+  ul { padding-left: 20px; font-size: 13px; }
+  li { margin-bottom: 4px; }
+  .screenshot img { max-width: 100%; border: 1px solid #ddd; border-radius: 4px; margin-top: 4px; }
+  .screenshot p { font-size: 12px; color: #666; }
+  .meta { font-size: 13px; color: #888; margin-bottom: 16px; }
+</style>
+</head>
+<body>
+<h1>Test Report</h1>
+<p class="meta">Run ID: ${escHtml(run.runId)} &middot; ${escHtml(timestamp)}</p>
+<div class="summary">
+  <div class="stat"><div class="num">${run.tests.length}</div><div class="label">Total</div></div>
+  <div class="stat"><div class="num pass-num">${passed.length}</div><div class="label">Passed</div></div>
+  <div class="stat"><div class="num fail-num">${failed.length}</div><div class="label">Failed</div></div>
+  <div class="stat"><div class="num">${formatDuration(totalDuration)}</div><div class="label">Duration</div></div>
+</div>
+${testSections}
+</body>
+</html>`;
+}
 var INTERACTIVE_ROLES = /^\s+- (button|link|textbox|combobox|checkbox|radio|option|menuitem|menuitemcheckbox|menuitemradio|spinbutton|searchbox|switch|slider|tab|treeitem|listbox|tree)/;
 function filterInteractiveOnly(snapshot) {
   const lines = snapshot.split("\n");
@@ -19863,16 +20371,16 @@ function formatBody(body, limit) {
   return { text: truncate(formatted, limit), lang };
 }
 
-// ../packages/pw-test-writer/dist/mcp/captureRunner.js
+// packages/pw-test-writer/dist/mcp/captureRunner.js
 import * as fs5 from "fs";
 import * as path6 from "path";
 import { spawn as spawn2 } from "child_process";
 import { fileURLToPath as fileURLToPath4 } from "url";
 
-// ../packages/pw-test-writer/dist/runner/captureServer.js
+// packages/pw-test-writer/dist/runner/captureServer.js
 import * as http from "http";
 
-// ../packages/pw-test-writer/dist/ui/store.js
+// packages/pw-test-writer/dist/ui/store.js
 var Store = class {
   state = {
     mode: "run",
@@ -20293,7 +20801,7 @@ var Store = class {
 };
 var store = new Store();
 
-// ../packages/pw-test-writer/dist/runner/captureServer.js
+// packages/pw-test-writer/dist/runner/captureServer.js
 function createCaptureServer(target) {
   let httpServer = null;
   let port = null;
@@ -20437,7 +20945,7 @@ function createCaptureServer(target) {
   };
 }
 
-// ../packages/pw-test-writer/dist/runner/testRunner.js
+// packages/pw-test-writer/dist/runner/testRunner.js
 import * as fs4 from "fs";
 import * as path5 from "path";
 import { spawn } from "child_process";
@@ -20631,7 +21139,7 @@ async function parseTestFile(filePath) {
   return tests;
 }
 
-// ../packages/pw-test-writer/dist/mcp/captureRunner.js
+// packages/pw-test-writer/dist/mcp/captureRunner.js
 var __dirname2 = path6.dirname(fileURLToPath4(import.meta.url));
 var MemoryTarget = class {
   actions = [];
@@ -20659,7 +21167,7 @@ async function runTest(testLocation, cwd2, options) {
   }
   const startTime = Date.now();
   try {
-    const spawnResult = await spawnTest(testLocation, cwd2, captureEndpoint, options?.timeoutMs, options?.project, options?.grep);
+    const spawnResult = await spawnTest(testLocation, cwd2, captureEndpoint, options?.timeoutMs, options?.project, options?.grep, options?.repeatEach, options?.onProgress);
     const duration = Date.now() - startTime;
     const attachments = collectScreenshots(cwd2, startTime);
     collectActionScreenshots(target.actions, cwd2, attachments);
@@ -20687,6 +21195,8 @@ async function runProject(cwd2, options) {
   const args = ["test"];
   if (options?.project)
     args.push("--project", options.project);
+  if (options?.repeatEach && options.repeatEach > 1)
+    args.push("--repeat-each", String(options.repeatEach));
   args.push("--reporter=json");
   const localBin = path6.join(cwd2, "node_modules", ".bin", "playwright");
   const cmd = fs5.existsSync(localBin) ? localBin : "npx";
@@ -20699,8 +21209,33 @@ async function runProject(cwd2, options) {
       stdio: ["pipe", "pipe", "pipe"]
     });
     let out = "";
+    let batchPassed = 0;
+    let batchFailed = 0;
+    let batchTotal = 0;
     child.stdout?.on("data", (d) => {
       out += d.toString();
+    });
+    child.stderr?.on("data", (d) => {
+      if (!options?.onProgress)
+        return;
+      const clean = d.toString().replace(/\x1B\[[0-9;]*[a-zA-Z]/g, "");
+      for (const line of clean.split("\n")) {
+        const trimmed = line.trim();
+        const runningMatch = trimmed.match(/Running (\d+) test/);
+        if (runningMatch) {
+          batchTotal = parseInt(runningMatch[1], 10);
+          options.onProgress(`Running ${batchTotal} tests...`);
+        }
+        const passedMatch = trimmed.match(/(\d+) passed/);
+        const failedMatch = trimmed.match(/(\d+) failed/);
+        if (passedMatch)
+          batchPassed = parseInt(passedMatch[1], 10);
+        if (failedMatch)
+          batchFailed = parseInt(failedMatch[1], 10);
+        if ((passedMatch || failedMatch) && batchTotal > 0) {
+          options.onProgress(`${batchPassed + batchFailed}/${batchTotal} \xB7 \u2705 ${batchPassed} passed, \u274C ${batchFailed} failed`);
+        }
+      }
     });
     const timer = setTimeout(() => {
       child.kill("SIGTERM");
@@ -20796,7 +21331,7 @@ function parseJsonRunResults(jsonStr, cwd2) {
   }
   return entries;
 }
-function spawnTest(testLocation, cwd2, captureEndpoint, timeoutMs = 12e4, project, grep) {
+function spawnTest(testLocation, cwd2, captureEndpoint, timeoutMs = 12e4, project, grep, repeatEach, onProgress) {
   return new Promise((resolve6) => {
     const env = {
       ...process.env,
@@ -20816,6 +21351,8 @@ function spawnTest(testLocation, cwd2, captureEndpoint, timeoutMs = 12e4, projec
       args.push("--grep", grep);
     if (project)
       args.push("--project", project);
+    if (repeatEach && repeatEach > 1)
+      args.push("--repeat-each", String(repeatEach));
     args.push("--reporter=line");
     const localBin = path6.join(cwd2, "node_modules", ".bin", "playwright");
     const cmd = fs5.existsSync(localBin) ? localBin : "npx";
@@ -20828,8 +21365,25 @@ function spawnTest(testLocation, cwd2, captureEndpoint, timeoutMs = 12e4, projec
     });
     let stdout = "";
     let stderr = "";
+    let progressPassed = 0;
+    let progressFailed = 0;
+    const total = repeatEach && repeatEach > 1 ? repeatEach : 0;
     child.stdout?.on("data", (data) => {
-      stdout += data.toString();
+      const chunk = data.toString();
+      stdout += chunk;
+      if (onProgress && total > 0) {
+        const clean = chunk.replace(/\x1B\[[0-9;]*[a-zA-Z]/g, "");
+        for (const line of clean.split("\n")) {
+          const trimmed = line.trim();
+          if (/^[✓✔]/.test(trimmed) || /^\d+\s+passed/.test(trimmed)) {
+            progressPassed++;
+            onProgress(`${progressPassed + progressFailed}/${total} \xB7 \u2705 ${progressPassed} passed, \u274C ${progressFailed} failed`);
+          } else if (/^[✗✘×]/.test(trimmed) || /^\d+\s+failed/.test(trimmed)) {
+            progressFailed++;
+            onProgress(`${progressPassed + progressFailed}/${total} \xB7 \u2705 ${progressPassed} passed, \u274C ${progressFailed} failed`);
+          }
+        }
+      }
     });
     child.stderr?.on("data", (data) => {
       stderr += data.toString();
@@ -20934,10 +21488,10 @@ function collectActionScreenshots(actions, cwd2, attachments) {
   }
 }
 
-// ../packages/pw-test-writer/dist/mcp/server.js
+// packages/pw-test-writer/dist/mcp/server.js
 function createMcpServer(cwd2) {
   const runs = /* @__PURE__ */ new Map();
-  const server2 = new Server({ name: "playwright-autopilot", version: "0.3.7" }, {
+  const server2 = new Server({ name: "playwright-autopilot", version: "0.4.0" }, {
     capabilities: { tools: {} },
     instructions: `E2E Test Capture \u2014 Playwright test runner with deep debugging.
 
@@ -21100,15 +21654,41 @@ When saving flows with \`e2e_save_app_flow\`, capture the full picture:
 - \`checkout--continue-draft\` \u2192 tests that a partial draft can be resumed
 - \`checkout--validation\` \u2192 tests form validation errors
 
-When you encounter a dirty-state failure, save two flows: the clean-start flow with the fix noted, and the continuation flow as a separate confirmed variant.`
+When you encounter a dirty-state failure, save two flows: the clean-start flow with the fix noted, and the continuation flow as a separate confirmed variant.
+
+## Reporting & Evidence
+
+- **e2e_get_evidence_bundle** \u2014 Get ALL failure evidence in one call (error, steps to reproduce, action timeline, network with bodies, console, DOM snapshot, screenshots). Pass \`outputFile: true\` to write a markdown file for Jira attachments.
+- **e2e_generate_report** \u2014 Generate a self-contained HTML or JSON report file. HTML includes inline styles, base64 screenshots, and collapsible per-test sections. Great for sharing with non-technical stakeholders.
+
+## Flaky Detection
+
+Two modes for detecting flaky tests:
+
+**\`retries: N\`** \u2014 Run N+1 separate Playwright processes. Each gets its own runId with full action capture. Best for debugging (2-3 retries). Returns FLAKY/CONSISTENT PASS/CONSISTENT FAIL verdict.
+
+**\`repeatEach: N\`** \u2014 Native Playwright \`--repeat-each\`. All N iterations in one process. Fast stress-test for confirming flakiness (use 30-100). Returns pass/fail counts.
+
+Combine both: use \`repeatEach: 40\` to confirm flakiness, then \`retries: 2\` to capture detailed failure data for investigation.
+
+## Coverage Analysis
+
+- **e2e_suggest_tests** \u2014 Scans page objects, spec files, and stored flows to identify coverage gaps: untested page object methods, missing flow variants (e.g. "checkout" exists but "checkout--continue-draft" doesn't), and flow steps that no spec exercises.`
   });
+  const sendProgress = (message) => {
+    try {
+      server2.sendLoggingMessage({ level: "info", data: message });
+    } catch {
+    }
+  };
   const ctx = {
     cwd: cwd2,
     runs,
     discoverTests: (cwd3, project) => discoverTests(cwd3, project),
     discoverProjects: (cwd3) => discoverProjects(cwd3),
-    runTest: (location, cwd3, options) => runTest(location, cwd3, { project: options?.project, grep: options?.grep, timeoutMs: options?.timeoutMs }),
-    runProject: (cwd3, options) => runProject(cwd3, { project: options?.project })
+    runTest: (location, cwd3, options) => runTest(location, cwd3, { project: options?.project, grep: options?.grep, timeoutMs: options?.timeoutMs, repeatEach: options?.repeatEach, onProgress: sendProgress }),
+    runProject: (cwd3, options) => runProject(cwd3, { project: options?.project, repeatEach: options?.repeatEach, onProgress: sendProgress }),
+    sendProgress
   };
   server2.setRequestHandler(ListToolsRequestSchema, async () => ({
     tools: toolDefs.map((t) => ({
@@ -21125,7 +21705,7 @@ When you encounter a dirty-state failure, save two flows: the clean-start flow w
   return server2;
 }
 
-// ../packages/pw-test-writer/dist/mcp-server.js
+// packages/pw-test-writer/dist/mcp-server.js
 var cwd = process.env.PW_PROJECT_DIR || process.cwd();
 var server = createMcpServer(cwd);
 var transport = new StdioServerTransport();
